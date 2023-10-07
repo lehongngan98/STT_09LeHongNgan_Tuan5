@@ -1,20 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { StyleSheet, Text, View ,Image, TextInput,TouchableOpacity} from 'react-native';
+import Bt_2a from './bt_2a';
+import Bt_2b from './bt_2b';
+import Bt_2c from './bt_2c';
+import Bt_2d from './bt_2d';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <Bt_2a/>
+    // <Bt_2b/>
+    // <Bt_2c/>
+    <Bt_2d/>
+   
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
